@@ -16,6 +16,6 @@ spec:
             pathType: Prefix
             backend:
               service:
-                name: spring-boot-data-json-service
+                name: spring-boot-data-json-cm-service
                 port:
                   number: 80
